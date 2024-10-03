@@ -13,6 +13,7 @@ header nav{
     padding: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    border-bottom: 2px solid #FCCD2A;
 }
 
 nav img{
@@ -50,6 +51,11 @@ nav button{
     background-color:#FF6500;
     color: white;   
     font-weight: 500;
+}
+
+nav button a{
+    text-decoration: none;
+    color: initial;
 }
 
 nav button:hover{
@@ -107,6 +113,11 @@ nav button:hover{
     border: none;
     border-radius: 50px;
     cursor: pointer;
+}
+
+.hero button a{
+    text-decoration: none;
+    color: initial;
 }
 
 .hero button:hover{
@@ -193,3 +204,73 @@ section h1{
 .part ul li{
     font-size: 15px;
 }
+
+
+footer{
+    border-top: 2PX solid #FCCD2A;
+    background-color: #21222B;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+footer section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+form{
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    position: relative;
+}
+
+.form-inner{
+    width: 50%;
+}
+
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+section h2{
+    margin-bottom: 2rem;
+    color: #FF6500;
+}
+
+.field textarea,
+.field input{
+    padding: 1rem;
+    background: transparent;
+    border: 1px solid #FCCD2A;
+    color: white;
+    border-radius: 10px;
+}                       
+
+
+form button{
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color:#FF6500;
+    color: white;   
+    font-weight: 500; 
+    position: absolute;  
+    bottom: 5%;
+}
+
+form button:hover{
+    background-color: #FCCD2A;
+    color: #21222B;
+    transition: all 0.5s ease;
+}
+
+
+
+

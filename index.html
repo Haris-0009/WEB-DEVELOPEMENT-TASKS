@@ -16,7 +16,7 @@
             <li><a href="#Second">Vegetable Stir Fry</a></li>
             <li><a href="#Third">Chocolate Cake</a></li>
         </ul>
-        <button>Contact Me</button>
+        <button><a href="#Contact">Contact Me</a></button>
     </nav>
     <img class="main-img" src="./images/main.jpg" alt="">
     <div class="hero">
@@ -24,7 +24,7 @@
         <p>Welcome to my collection of favorite homemade recipes. Whether you're craving a classic pasta dish, 
             a quick stir fry, or a decadent dessert, you'll find 
             something here to inspire your next meal! <span>&#10084;</span></p>
-        <button>View Recipes</button>
+        <button><a href="#First">View Recipes</a></button>
     </div>
     </header>
     <main>
@@ -144,5 +144,33 @@
             </div>
         </section>
     </main>
+    <footer>
+        <section id="Contact">
+            <h2>Submit Your Own Recipe</h2>
+                <form>
+                    <div class="form-inner">
+                        <div class="field">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required><br>
+                        </div>
+                        <div class="field">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br>
+                        </div>
+                    </div>
+                    <div class="form-inner">
+                        <div class="field">
+                            <label for="recipe-name">Recipe Name:</label>
+                            <input type="text" id="recipe-name" name="recipe-name" required><br>
+                        </div>
+                        <div class="field">
+                            <label for="ingredients">Ingredients:</label>
+                            <textarea id="ingredients" name="ingredients" rows="4" cols="50" required></textarea><br>
+                        </div>
+                    </div>
+                    <button>Submit</button>
+                </form>
+        </section>
+    </footer>
 </body>
 </html>
